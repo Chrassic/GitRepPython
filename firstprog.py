@@ -15,4 +15,4 @@ if x == '2' and x1 == '5' and x2 == '9': #Alle drei muessen richtig sein!
   else:
     raw_input ("Sie haben die falsche Zahl eingegeben. Das Programm endet hier.")
 else:
-  print ("Falsch.")
+  print ("Falsch. Das Programm wird nun geschlossen.")
