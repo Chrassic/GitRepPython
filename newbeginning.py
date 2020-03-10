@@ -4,7 +4,7 @@ print ("Zum Oeffnen des Tresors benoetigen Sie eine Kombination.\n")
 x = raw_input ("Erste Zahl: ") #raw_input ist ein Muss!
 x1 = raw_input ("Zweite Zahl: ")
 x2 = raw_input ("Dritte Zahl: ")
-if x == '2' and x1 == '5' and x2 == '9': #Alle drei müssen richtig sein!
+if x == '2' and x1 == '5' and x2 == '9': #Alle drei muessen richtig sein!
   print ("Richtige Kombination.\n")
   print ("Bitte geben Sie die finale Zahl ein. ")
   if raw_input () == '1':
