@@ -13,8 +13,6 @@ gewicht_kilogramm = int (gewicht_pfund)* 0.45
 print("Du wiegst also " + str(gewicht_kilogramm) + " Kilogramm, " + name + "; du bist ganz schoen fett")
 //Das essenzielle hierbei ist 'str', weil es den string in eine zahl konvertiert"""
 
-#STOP BEI 29.29 (Python-Video, Youtube)
-
 print ("Willkommen\n")
 print ("Zum Oeffnen des Tresors benoetigen Sie eine Kombination.\n")
 
