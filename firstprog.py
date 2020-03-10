@@ -12,7 +12,7 @@ if x == '2' and x1 == '5' and x2 == '9': #Alle drei muessen richtig sein!
     name = raw_input ("Wie lautet Ihr Name? ")
     farbe = raw_input ("Wie ist Ihre Lieblingsfarbe? ")
     print ("Hi " + name + ", Ihre Lieblingsfarbe ist also " + farbe)
-    if name == 'Chris':
+    if name == 'Chris' or name == 'chris':
       print ("\nHallo, Meister.")
     else:
         raw_input ("\nHallo du Untermensch.")
