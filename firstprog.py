@@ -13,9 +13,9 @@ if x == '2' and x1 == '5' and x2 == '9': #Alle drei muessen richtig sein!
     farbe = raw_input ("Wie ist Ihre Lieblingsfarbe? ")
     print ("Hi " + name + ", Ihre Lieblingsfarbe ist also " + farbe)
     if name == 'Chris' or name == 'chris':
-      print ("\nHallo, Meister.")
+      print ("\nHallo, Chef.")
     else:
-        raw_input ("\nHallo du Untermensch.")
+        raw_input ("\nHallo du Nudel.")
   else:
     raw_input ("Sie haben die falsche Zahl eingegeben. Das Programm endet hier.")
 else:
