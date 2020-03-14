@@ -14,21 +14,31 @@ if x == '2' and x1 == '5' and x2 == '9': #Alle drei muessen richtig sein!
     print ("Hi " + name + ", Ihre Lieblingsfarbe ist also " + farbe)
     if name == 'Chris' or name == 'chris':
       print ("\nHallo, Chef.\n")
-      print ("Bitte Befehl zur Schleife eingeben: ")
+      print ("Sie sehen jetzt das aktuelle Datum sowie Zeit.\n")
+      import showtime
+      raw_input () #fuer Tastendruck
+      print ("Fibonacci-Folge bis 10:")
+      import test
+      raw_input () #fuer Tastendruck
+      print ("\nBitte Befehl zur Schleife eingeben: ")
       if raw_input () == 'go':
-          i = 1
-          while i < 6:
+          i = 0
+          while i < 5:
               i += 1
-              if i == 3:
-                  continue
-              print i
+              print ("Die Schleife wurde " + str(i) + " mal ausgefuehrt.")
+              #if i == 4:
+                #  continue
+                #print ("Die Schleife wurde " + str(i) + " mal ausgefuehrt.")
+              #else:
+                  #print ("Die Schleife wurde " + str(i) + " mal ausgefuehrt.")
               """print(i)
               if i == 3:
                 break
                 print ("\ni wurde bei 3 gestoppt.")
               i += 1"""
-    else:
+      else:
         raw_input ("\nHallo du Nudel.")
+        print ("\nDie Eingabe war falsch. Das Programm wird beendet.")
   else:
     raw_input ("Sie haben die falsche Zahl eingegeben. Das Programm endet hier.")
 else:
