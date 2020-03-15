@@ -1,5 +1,18 @@
+#!/usr/bin/env python
+# -*- coding: iso-8859-1 -*-
+import sys
+# Encoding der Standardausgabe und des Dateisystems herausfinden
+stdout_encoding = sys.stdout.encoding or sys.getfilesystemencoding()
+fs_encoding = sys.getfilesystemencoding()
+# Kompletten Kommandozeilenaufruf übernehmen und nach Unicode umwandeln
+cmd_original = " ".join(sys.argv)
+cmd_unicode = cmd_original.decode(fs_encoding)
+# String verändern und wieder an die Kommandozeile übergeben
+cmd_unicode += u" (öäü)"
+#print cmd_unicode.encode(stdout_encoding)
+
 print ("Willkommen\n")
-print ("Zum Oeffnen des Tresors benoetigen Sie eine Kombination.\n")
+print ("Zum Öffnen des Tresors benötigen Sie eine Kombination.\n")
 
 x = raw_input ("Erste Zahl: ") #raw_input ist ein Muss!
 x1 = raw_input ("Zweite Zahl: ")
@@ -25,7 +38,7 @@ if x == '2' and x1 == '5' and x2 == '9': #Alle drei muessen richtig sein!
           i = 0
           while i < 5:
               i += 1
-              print ("Die Schleife wurde " + str(i) + " mal ausgefuehrt.")
+              print ("Die Schleife wurde " + str(i) + " mal ausgeführt.")
               #if i == 4:
                 #  continue
                 #print ("Die Schleife wurde " + str(i) + " mal ausgefuehrt.")
