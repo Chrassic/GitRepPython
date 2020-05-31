@@ -12,3 +12,5 @@ for rowan in rowans:
     r = random.randint(0, len(rowan)-1)
     rowan_sentence.append(rowan[r]) #Füge in die Liste rowan_sentence eine der rowan-Listen mit einem r ein, also einer Zufallszahl
 print (" ".join(rowan_sentence)+"!") #Konvertiere die Liste rowan_sentence in einen Satz mit .join
+
+#test

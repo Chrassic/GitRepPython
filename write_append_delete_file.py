@@ -32,3 +32,16 @@ with open("nurlesenschreiben.txt", "w") as file:
         if line.strip("\n") != "Jana":
             file.write(line)
 """
+"""
+#add new students with datetime
+import datetime
+now = datetime.datetime.now()
+#print ("Current date and time : ")
+#print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
+with open ("lesen.txt", "a") as file:
+    file.write("Newly added students on "+now.strftime("%Y-%m-%d")+ ":\n")
+    students = ["Jake", "Kurt"]
+    for line in students:
+        file.write(line+"\n")
+"""
