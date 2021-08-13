@@ -11,3 +11,8 @@ else:
 
 
 print("Programm endet....")
+
+print ("Fortsetzung folgt..")
+
+print ("Oder doch nicht?")
+
