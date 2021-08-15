@@ -16,3 +16,4 @@ print ("Fortsetzung folgt..")
 
 print ("Oder doch nicht?")
 
+print("Gleich.")
